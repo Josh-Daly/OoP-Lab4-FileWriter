@@ -1,12 +1,8 @@
-//Paul Daly G00470372
-//OOP Lab 4
-//Exception Handling & File Writing/Reading
-
 package ie.atu.week6;
 
 import java.util.Scanner;
 
-public class Main {
+public class TryMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int age = 0;
@@ -17,7 +13,8 @@ public class Main {
             System.out.println("Thanks! You entered age = " + age);
         }
         catch (NumberFormatException e){
-            System.out.println("Invalid input " + e.getMessage());
+            System.out.println("Invalid input" + e.getMessage());
         }
+
     }
 }
